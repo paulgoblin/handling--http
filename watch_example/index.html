@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="clogApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Clogs</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body ng-controller="DisplayController">
+  <h1>Hello, this is Clog</h1>
+  <button ng-click="getClogs()">Get Clogs</button>
+  <ul>
+    <li ng-repeat="clog in clogs track by $index">{{clog.name}}</li>
+  </ul>
+</body>
+</html>
