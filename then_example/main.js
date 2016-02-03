@@ -1,6 +1,6 @@
 'use strict'
 
-let API = 'http://localhost:3000';
+let API = 'https://damp-reaches-8819.herokuapp.com';
 console.log("then example");
 
 angular.module('clogApp', [])
